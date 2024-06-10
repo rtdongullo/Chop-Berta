@@ -318,3 +318,30 @@ button:hover {
   width: 400px;
   border-radius: 10px;
 }
+
+#footer{
+  height: 250px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#logo-footer{
+ width: 100px;
+ height: 50px;
+}
+
+#footer-text{
+  display: flex;
+  color: white;
+  text-align: center;
+}
+
+#footer-icons{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  column-gap: 10px;
+}
